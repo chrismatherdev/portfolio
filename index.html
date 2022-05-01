@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <script src="https://kit.fontawesome.com/4715594c8a.js" crossorigin="anonymous"></script>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Chris Mather Portfolio</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <h1>
+                    <a href="index.html">
+                        <i class="fa-brands fa-css3"></i>Chris Mather
+                    </a>
+                </h1>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/chrismather4/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.github.com/chrismather410">
+                    <i class="fa-brands fa-github-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="/resume" class="button">
+                    Resume
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="gradient"></div>
+    <section id="intro">
+        <p className="name">
+            Hello, my name is <span>Chris Mather.</span>
+        </p>
+        <h2>I am a self taught Software Engineer.</h2>
+        <p>I'm currently looking to land my first role in the tech industry.</p>
+        <p>
+            I am thoroughly enjoying learning to code and have recently been
+            learning how to use React alongside TypeScript.
+        </p>
+    </section>
+    <div class="gradient"></div>
+    <div class="section-blue">
+        <section id="projects">
+            <h2>Projects I'm proud of</h2>
+            <article>
+                <div class="text">
+                    <h4>Latest Project</h4>
+                    <h3>Forecaster</h3>
+                    <p class="blackbox">
+                        This has been my first major personal project. The app retrieves weekly forecasts for a given
+                        location
+                        and makes use of the <a ref="https://openweathermap.org">OpenWeather</a> and <a
+                            href="https://www.geoapify.com/">
+                            Geoapify
+                        </a> API's. The app has been built in React using Vite as the build process and Chakra UI as
+                        opposed to styled components.
+                        The main features of this app included light / dark mode, address autocomplete, weekly forecasts
+                        and forecast highlights.
+                        Forecaster can be found on my <a href="https://github.com/chrismather410/forecaster">GitHub</a>
+                        along with instructions
+                        after cloning.
+                    </p>
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>React</li>
+                        <li>TypeScript</li>
+                        <li>Context API</li>
+                    </ul>
+                </div>
+                <img src="images/forecaster.png" alt="Forecaster" />
+            </article>
+        </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <p>I'm actively looking for new opportunities.</p>
+        <a href="mailto:christianmather4@outlook.com" class="button">
+            Email me
+        </a>
+    </section>
+
+    <div class="gradient"></div>
+
+    <footer>
+        <h2>Chris Mather</h2>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/chrismather4" target="_blank">
+                    <span class="fab fa-linkedin" aria-hidden="true"></span>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.github.com/chrismather410" target="_blank">
+                    <span class="fab fa-github-square" aria-hidden="true"></span>
+                    <span class="sr-only">Github</span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:christianmather4@outlook.com">
+                    <span class="fas fa-envelope" aria-hidden="true"></span>
+                    <span class="sr-only">Email</span>
+                </a>
+            </li>
+        </ul>
+        <p>
+            <small>&copy; 2022 Chris Mather. All rights reserved.</small>
+        </p>
+    </footer>
+</body>
+
+</html>
